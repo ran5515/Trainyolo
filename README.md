@@ -3,7 +3,7 @@ Train yolo on ImageNet
 ## Step 1 Download
 download files from: [kaggle imagenet](https://www.kaggle.com/c/imagenet-object-detection-from-video-challenge/data)
 
-##Step 2 preprocessing
+## Step 2 preprocessing
 
 Here I will show you how to rearrange dataset for trainning folder in  **test_new**(imagenet_object_detection_video_test_new.tar.gz)
 ####Note
@@ -15,5 +15,5 @@ Here I will show you how to rearrange dataset for trainning folder in  **test_ne
 4. run getTinyDataset.py, this file should be in finaldataset. you will get some outputput. put the first line into darknet/examples/yolo.c, the second line into darknet/data/voc.names. this python code is for generate a very small dataset and then we use this to tune yolo
 5. run changelabel.py, this file should be in tinydataset. 
 6. run getTogether.py, this file will generate train.txt and test.txt
-##Step 3
+## Step 3
 To be continue
